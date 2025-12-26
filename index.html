@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+<div class="game">
+  <div class="top">
+    <div class="name">Asadbek<br>Mirmahmudov</div>
+
+    <select id="level">
+      <option value="5">Easy</option>
+      <option value="3">Medium</option>
+      <option value="2">Hard</option>
+    </select>
+
+    <div class="score-box">
+      score: <span id="score">0</span><br>
+      HighScore: <span id="high">0</span>
+    </div>
+  </div>
+
+  <h1 id="word">paltriness</h1>
+
+  <input type="text" id="input" placeholder="Type here..." autofocus>
+
+  <h2>time: <span id="time">0</span></h2>
+</div>
+
+<!-- Game Over -->
+<div class="overlay" id="gameOver">
+  <div class="modal">
+    <h1>Game Over</h1>
+    <p>Your result: <span id="finalScore">0</span></p>
+    <button onclick="restart()">TRY AGAIN</button>
+  </div>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>

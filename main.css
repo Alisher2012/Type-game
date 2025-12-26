@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg,#b14cff,#63e6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(120deg,#9b4dff,#66e0ff);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 22px;
+  text-align: left;
+}
+
+.score-box {
+  font-size: 22px;
+  text-align: right;
+}
+
+#word {
+  margin-top: 80px;
+  font-size: 48px;
+}
+
+input {
+  margin-top: 40px;
+  width: 60%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+/* GAME OVER */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: linear-gradient(120deg,#ff5acd,#ffd36e);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.modal h1 {
+  margin-bottom: 20px;
+}
+
+.modal button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: linear-gradient(135deg,#ff4ecd,#ffd56b);
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+}
+
+.modal h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.modal h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.modal button {
+  margin-top: 20px;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 25px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
